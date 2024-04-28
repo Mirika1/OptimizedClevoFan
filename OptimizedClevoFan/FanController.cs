@@ -60,7 +60,7 @@ namespace OptimizedClevoFan
             }
 
             // set all fans to 80% of the one that is running faster (at more RPMs)
-            int minimumFanRPM = (int)((double)maxOfAllFans * 0.80);
+            int minimumFanRPM = (int)((double)maxOfAllFans * 0);
             // if one of the fans is at more than 100% then I set all the fans at 100%
             if (maxOfAllFans >= 100)
                 minimumFanRPM = 100;
