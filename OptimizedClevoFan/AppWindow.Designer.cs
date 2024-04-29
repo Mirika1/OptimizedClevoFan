@@ -167,7 +167,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(603, 641);
+            this.ClientSize = new System.Drawing.Size(553, 653);
             this.Controls.Add(this.buttonClose);
             this.Controls.Add(this.buttonExit);
             this.Controls.Add(this.checkBoxStartWithWindows);
@@ -175,10 +175,9 @@
             this.Controls.Add(this.groupBoxGeneralInfos);
             this.Controls.Add(this.groupBoxOffset);
             this.Controls.Add(this.panelFanInfos);
-            this.Font = new System.Drawing.Font("Open Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
-            this.MinimizeBox = true;
+            this.MinimizeBox = false;
             this.Name = "AppWindow";
             ((System.ComponentModel.ISupportInitialize)(this.offsetTrackBar)).EndInit();
             this.groupBoxOffset.ResumeLayout(false);
