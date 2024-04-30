@@ -166,7 +166,7 @@
             // AppWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.ClientSize = new System.Drawing.Size(553, 653);
             this.Controls.Add(this.buttonClose);
             this.Controls.Add(this.buttonExit);
@@ -177,7 +177,7 @@
             this.Controls.Add(this.panelFanInfos);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
-            this.MinimizeBox = false;
+            this.MinimizeBox = true;
             this.Name = "AppWindow";
             ((System.ComponentModel.ISupportInitialize)(this.offsetTrackBar)).EndInit();
             this.groupBoxOffset.ResumeLayout(false);
